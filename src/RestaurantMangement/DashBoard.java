@@ -240,7 +240,8 @@ public class DashBoard extends javax.swing.JFrame {
         jButtonTotal = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         resetBtn = new javax.swing.JButton();
-        exitBtn = new javax.swing.JButton();
+        MenuBtn = new javax.swing.JButton();
+        exitBtn1 = new javax.swing.JButton();
         jPanel15 = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTextAreaBill = new javax.swing.JTextArea();
@@ -1233,15 +1234,27 @@ public class DashBoard extends javax.swing.JFrame {
             }
         });
 
-        exitBtn.setBackground(new java.awt.Color(255, 51, 51));
-        exitBtn.setFont(new java.awt.Font("Comic Sans MS", 1, 24)); // NOI18N
-        exitBtn.setForeground(new java.awt.Color(255, 255, 255));
-        exitBtn.setText("Exit");
-        exitBtn.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(255, 102, 255), 2, true));
-        exitBtn.setBorderPainted(false);
-        exitBtn.addActionListener(new java.awt.event.ActionListener() {
+        MenuBtn.setBackground(new java.awt.Color(255, 102, 51));
+        MenuBtn.setFont(new java.awt.Font("Comic Sans MS", 1, 24)); // NOI18N
+        MenuBtn.setForeground(new java.awt.Color(255, 255, 255));
+        MenuBtn.setText("Menu");
+        MenuBtn.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(255, 102, 255), 2, true));
+        MenuBtn.setBorderPainted(false);
+        MenuBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                exitBtnActionPerformed(evt);
+                MenuBtnActionPerformed(evt);
+            }
+        });
+
+        exitBtn1.setBackground(new java.awt.Color(255, 51, 51));
+        exitBtn1.setFont(new java.awt.Font("Comic Sans MS", 1, 24)); // NOI18N
+        exitBtn1.setForeground(new java.awt.Color(255, 255, 255));
+        exitBtn1.setText("Exit");
+        exitBtn1.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(255, 102, 255), 2, true));
+        exitBtn1.setBorderPainted(false);
+        exitBtn1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                exitBtn1ActionPerformed(evt);
             }
         });
 
@@ -1257,8 +1270,10 @@ public class DashBoard extends javax.swing.JFrame {
                 .addGap(18, 18, 18)
                 .addComponent(resetBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(exitBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(360, Short.MAX_VALUE))
+                .addComponent(MenuBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(exitBtn1, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(15, Short.MAX_VALUE))
         );
         jPanel14Layout.setVerticalGroup(
             jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1268,7 +1283,8 @@ public class DashBoard extends javax.swing.JFrame {
                     .addComponent(jButtonTotal, javax.swing.GroupLayout.PREFERRED_SIZE, 52, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 52, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(resetBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 52, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(exitBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 52, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(MenuBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 52, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(exitBtn1, javax.swing.GroupLayout.PREFERRED_SIZE, 52, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap())
         );
 
@@ -1389,7 +1405,7 @@ public class DashBoard extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 1367, Short.MAX_VALUE)
+                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 1399, Short.MAX_VALUE)
                 .addContainerGap())
         );
         layout.setVerticalGroup(
@@ -1573,9 +1589,12 @@ public class DashBoard extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_jCheckBox10ActionPerformed
 
-    private void exitBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_exitBtnActionPerformed
-        System.exit(0);
-    }//GEN-LAST:event_exitBtnActionPerformed
+    private void MenuBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MenuBtnActionPerformed
+        Menu menu = new Menu();
+        menu.setVisible(true);
+        menu.pack();
+        this.dispose();
+    }//GEN-LAST:event_MenuBtnActionPerformed
 
     private void resetBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_resetBtnActionPerformed
         reset();
@@ -1613,6 +1632,10 @@ public class DashBoard extends javax.swing.JFrame {
 
     }//GEN-LAST:event_jButton2ActionPerformed
 
+    private void exitBtn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_exitBtn1ActionPerformed
+        System.exit(0);
+    }//GEN-LAST:event_exitBtn1ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -1649,7 +1672,8 @@ public class DashBoard extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton exitBtn;
+    private javax.swing.JButton MenuBtn;
+    private javax.swing.JButton exitBtn1;
     private javax.swing.JLabel imgChai;
     private javax.swing.JLabel imgCoffee;
     private javax.swing.JLabel imgColdDrink;

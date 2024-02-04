@@ -150,9 +150,9 @@ public class Admin extends javax.swing.JFrame {
             String uname = usernameField.getText();
             String upass = String.valueOf(passwordField.getPassword());
             if (uname.equals("admin") && upass.equals("1234")) {
-                DashBoard dashBoard = new DashBoard();
-                dashBoard.setVisible(true);
-                dashBoard.pack();
+                Menu menu = new Menu();
+                menu.setVisible(true);
+                menu.pack();
                 this.dispose();
             } else {
                 JOptionPane.showMessageDialog(null, "Incorrect Username or Password!!");
