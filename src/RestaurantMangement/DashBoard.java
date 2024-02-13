@@ -138,7 +138,7 @@ public class DashBoard extends javax.swing.JFrame {
     }
     
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">                          
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
@@ -1417,9 +1417,9 @@ public class DashBoard extends javax.swing.JFrame {
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }// </editor-fold>                        
 
-    private void jCheckBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox1ActionPerformed
+    private void jCheckBox1ActionPerformed(java.awt.event.ActionEvent evt) {                                           
         int qty = Integer.parseInt(jSpinner1.getValue().toString());
         if(qtyIsZero(qty)){
             x++;
@@ -1434,9 +1434,9 @@ public class DashBoard extends javax.swing.JFrame {
         } else {
             jCheckBox1.setSelected(false);
         }
-    }//GEN-LAST:event_jCheckBox1ActionPerformed
+    }                                          
 
-    private void jCheckBox2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox2ActionPerformed
+    private void jCheckBox2ActionPerformed(java.awt.event.ActionEvent evt) {                                           
         int qty = Integer.parseInt(jSpinner3.getValue().toString());
         if(qtyIsZero(qty)){
             x++;
@@ -1451,9 +1451,9 @@ public class DashBoard extends javax.swing.JFrame {
         } else {
             jCheckBox3.setSelected(false);
         }
-    }//GEN-LAST:event_jCheckBox2ActionPerformed
+    }                                          
 
-    private void jCheckBox3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox3ActionPerformed
+    private void jCheckBox3ActionPerformed(java.awt.event.ActionEvent evt) {                                           
         int qty = Integer.parseInt(jSpinner5.getValue().toString());
         if(qtyIsZero(qty)){
             x++;
@@ -1468,9 +1468,9 @@ public class DashBoard extends javax.swing.JFrame {
         } else {
             jCheckBox5.setSelected(false);
         }
-    }//GEN-LAST:event_jCheckBox3ActionPerformed
+    }                                          
 
-    private void jCheckBox4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox4ActionPerformed
+    private void jCheckBox4ActionPerformed(java.awt.event.ActionEvent evt) {                                           
         int qty = Integer.parseInt(jSpinner8.getValue().toString());
         if(qtyIsZero(qty)){
             x++;
@@ -1485,9 +1485,9 @@ public class DashBoard extends javax.swing.JFrame {
         } else {
             jCheckBox8.setSelected(false);
         }
-    }//GEN-LAST:event_jCheckBox4ActionPerformed
+    }                                          
 
-    private void jCheckBox5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox5ActionPerformed
+    private void jCheckBox5ActionPerformed(java.awt.event.ActionEvent evt) {                                           
         int qty = Integer.parseInt(jSpinner7.getValue().toString());
         if(qtyIsZero(qty)){
             x++;
@@ -1502,9 +1502,9 @@ public class DashBoard extends javax.swing.JFrame {
         } else {
             jCheckBox7.setSelected(false);
         }
-    }//GEN-LAST:event_jCheckBox5ActionPerformed
+    }                                          
 
-    private void jCheckBox6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox6ActionPerformed
+    private void jCheckBox6ActionPerformed(java.awt.event.ActionEvent evt) {                                           
         int qty = Integer.parseInt(jSpinner2.getValue().toString());
         if(qtyIsZero(qty)){
             x++;
@@ -1519,9 +1519,9 @@ public class DashBoard extends javax.swing.JFrame {
         } else {
             jCheckBox2.setSelected(false);
         }
-    }//GEN-LAST:event_jCheckBox6ActionPerformed
+    }                                          
 
-    private void jCheckBox7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox7ActionPerformed
+    private void jCheckBox7ActionPerformed(java.awt.event.ActionEvent evt) {                                           
         int qty = Integer.parseInt(jSpinner4.getValue().toString());
         if(qtyIsZero(qty)){
             x++;
@@ -1536,9 +1536,9 @@ public class DashBoard extends javax.swing.JFrame {
         } else {
             jCheckBox4.setSelected(false);
         }
-    }//GEN-LAST:event_jCheckBox7ActionPerformed
+    }                                          
 
-    private void jCheckBox8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox8ActionPerformed
+    private void jCheckBox8ActionPerformed(java.awt.event.ActionEvent evt) {                                           
         int qty = Integer.parseInt(jSpinner6.getValue().toString());
         if(qtyIsZero(qty)){
             x++;
@@ -1553,9 +1553,9 @@ public class DashBoard extends javax.swing.JFrame {
         } else {
             jCheckBox6.setSelected(false);
         }
-    }//GEN-LAST:event_jCheckBox8ActionPerformed
+    }                                          
 
-    private void jCheckBox9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox9ActionPerformed
+    private void jCheckBox9ActionPerformed(java.awt.event.ActionEvent evt) {                                           
         int qty = Integer.parseInt(jSpinner9.getValue().toString());
         if(qtyIsZero(qty)){
             x++;
@@ -1570,9 +1570,9 @@ public class DashBoard extends javax.swing.JFrame {
         } else {
             jCheckBox9.setSelected(false);
         }
-    }//GEN-LAST:event_jCheckBox9ActionPerformed
+    }                                          
 
-    private void jCheckBox10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox10ActionPerformed
+    private void jCheckBox10ActionPerformed(java.awt.event.ActionEvent evt) {                                            
         int qty = Integer.parseInt(jSpinner10.getValue().toString());
         if(qtyIsZero(qty)){
             x++;
@@ -1587,20 +1587,20 @@ public class DashBoard extends javax.swing.JFrame {
         } else {
             jCheckBox10.setSelected(false);
         }
-    }//GEN-LAST:event_jCheckBox10ActionPerformed
+    }                                           
 
-    private void MenuBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MenuBtnActionPerformed
+    private void MenuBtnActionPerformed(java.awt.event.ActionEvent evt) {                                        
         Menu menu = new Menu();
         menu.setVisible(true);
         menu.pack();
         this.dispose();
-    }//GEN-LAST:event_MenuBtnActionPerformed
+    }                                       
 
-    private void resetBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_resetBtnActionPerformed
+    private void resetBtnActionPerformed(java.awt.event.ActionEvent evt) {                                         
         reset();
-    }//GEN-LAST:event_resetBtnActionPerformed
+    }                                        
 
-    private void jButtonTotalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonTotalActionPerformed
+    private void jButtonTotalActionPerformed(java.awt.event.ActionEvent evt) {                                             
         if(total == 0.0){
              JOptionPane.showMessageDialog(null,"You Haven't selected any item");
         }else{
@@ -1613,9 +1613,9 @@ public class DashBoard extends javax.swing.JFrame {
           );
           jButtonTotal.setEnabled(false);
         }
-    }//GEN-LAST:event_jButtonTotalActionPerformed
+    }                                            
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {                                         
         if (total != 0) {
             if (!jButtonTotal.isEnabled()) {
                 try {
@@ -1630,11 +1630,11 @@ public class DashBoard extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(null, "No Menu Items Purchased");
         }
 
-    }//GEN-LAST:event_jButton2ActionPerformed
+    }                                        
 
-    private void exitBtn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_exitBtn1ActionPerformed
+    private void exitBtn1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
         System.exit(0);
-    }//GEN-LAST:event_exitBtn1ActionPerformed
+    }                                        
 
     /**
      * @param args the command line arguments
@@ -1671,7 +1671,7 @@ public class DashBoard extends javax.swing.JFrame {
         });
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
+    // Variables declaration - do not modify                     
     private javax.swing.JButton MenuBtn;
     private javax.swing.JButton exitBtn1;
     private javax.swing.JLabel imgChai;
@@ -1782,5 +1782,5 @@ public class DashBoard extends javax.swing.JFrame {
     private javax.swing.JTextField jTextFieldSubTotal;
     private javax.swing.JTextField jTextFieldTotal;
     private javax.swing.JButton resetBtn;
-    // End of variables declaration//GEN-END:variables
+    // End of variables declaration                   
 }
