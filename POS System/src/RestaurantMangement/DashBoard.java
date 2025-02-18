@@ -10,7 +10,7 @@ import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
 
 
-Public class DashBoard extends javax.swing.JFrame {
+public class DashBoard extends javax.swing.JFrame {
 
     private double total = 0.0;
     private int x = 0;
